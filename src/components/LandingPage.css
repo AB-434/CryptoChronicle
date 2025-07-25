@@ -1,0 +1,190 @@
+.main{
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+    width: 100%;
+    height: 100vh;
+    background-color: #333446;
+}
+nav{
+    position: fixed;
+    height: 70px;
+    width: 100%;
+    background-color: #B8CFCE;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* .logo{
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+    justify-content: flex-start;
+} */
+
+/* .right-nav-item{
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+    justify-content: flex-end;
+} */
+.nav-items a{
+    padding: 8px 10px;
+    background-color: #333446;
+    text-decoration: none;
+    margin-right: 30px;
+    color: white;
+    font-weight: 500;
+}
+.nav-items :hover{
+    background-color: #7F8CAA;
+}
+
+.middle-body{
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.middle-body div h2 {
+    color: #B8CFCE;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.middle-body div p {
+    color: #B8CFCE;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #B8CFCE;
+    /* letter-spacing: 1rem; */
+}
+.middle-body div button {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #B8CFCE;
+    background-color: 	#1D4ED8;
+    border: 1px solid #B8CFCE;
+    padding: 4px 10px;
+}
+
+.middle-body div{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    /* background-color: red; */
+}
+
+
+/* Testimonials Section */
+.testimonials-section {
+    padding: 100px 0;
+    background-color: #122f40;
+    text-align: center;
+}
+
+.testimonials-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1500px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.testimonial-card {
+    background-color: #7F8CAA;
+    border-radius: 15px;
+    width: 300px;
+    position: relative;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.testimonial-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+    margin-right: 15px;
+    border: 4px solid #7F8CAA;
+}
+
+
+.testimonial-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+.testimonial-quote {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: rgba(27, 198, 255, 0.2);
+    font-size: 40px;
+}
+
+.testimonial-card p {
+    margin: 30px 0;
+    font-style: italic;
+    line-height: 1.6;
+    color: #eee;
+    text-align: left;
+}
+
+.testimonial-author {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+
+.author-info h4 {
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333446;
+}
+
+.author-info p {
+    margin: 0;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+    color: #B8CFCE;
+}
+
+.who-we-are{
+    width: 100%;
+    height: 90vh;
+    background-color: #333446;
+}
+
+.section-title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-title h2{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #B8CFCE;
+}
+.section-title p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #B8CFCE;
+}
